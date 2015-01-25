@@ -1,0 +1,536 @@
+EESchema Schematic File Version 2
+LIBS:bus_servo32
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bus_servo32-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OPTO_ISOLATOR U13
+U 1 1 5443EB00
+P 3000 2350
+F 0 "U13" H 2750 2650 50  0000 C CNN
+F 1 "LTV-826" H 3150 2050 50  0000 C CNN
+F 2 "Bus_Servo32:DIP-8__300" H 3000 2350 50  0001 C CNN
+F 3 "" H 3000 2350 60  0000 C CNN
+	1    3000 2350
+	1    0    0    -1  
+$EndComp
+Text HLabel 1500 1200 0    50   Input ~ 0
+PULSE3
+$Comp
+L OPTO_ISOLATOR U13
+U 2 1 5443EB08
+P 3000 3150
+F 0 "U13" H 2750 3450 50  0000 C CNN
+F 1 "LTV-826" H 3150 2850 50  0000 C CNN
+F 2 "Bus_Servo32:DIP-8__300" H 3000 3150 50  0001 C CNN
+F 3 "" H 3000 3150 60  0000 C CNN
+	2    3000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPTO_ISOLATOR U14
+U 1 1 5443EB0F
+P 3000 3950
+F 0 "U14" H 2750 4250 50  0000 C CNN
+F 1 "LTV-826" H 3150 3650 50  0000 C CNN
+F 2 "Bus_Servo32:DIP-8__300" H 3000 3950 50  0001 C CNN
+F 3 "" H 3000 3950 60  0000 C CNN
+	1    3000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPTO_ISOLATOR U14
+U 2 1 5443EB16
+P 3000 4750
+F 0 "U14" H 2750 5050 50  0000 C CNN
+F 1 "LTV-826" H 3150 4450 50  0000 C CNN
+F 2 "Bus_Servo32:DIP-8__300" H 3000 4750 50  0001 C CNN
+F 3 "" H 3000 4750 60  0000 C CNN
+	2    3000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPTO_ISOLATOR U15
+U 1 1 5443EB1D
+P 7700 2350
+F 0 "U15" H 7450 2650 50  0000 C CNN
+F 1 "LTV-826" H 7850 2050 50  0000 C CNN
+F 2 "Bus_Servo32:DIP-8__300" H 7700 2350 50  0001 C CNN
+F 3 "" H 7700 2350 60  0000 C CNN
+	1    7700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPTO_ISOLATOR U15
+U 2 1 5443EB24
+P 7700 3150
+F 0 "U15" H 7450 3450 50  0000 C CNN
+F 1 "LTV-826" H 7850 2850 50  0000 C CNN
+F 2 "Bus_Servo32:DIP-8__300" H 7700 3150 50  0001 C CNN
+F 3 "" H 7700 3150 60  0000 C CNN
+	2    7700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPTO_ISOLATOR U16
+U 1 1 5443EB2B
+P 7700 3950
+F 0 "U16" H 7450 4250 50  0000 C CNN
+F 1 "LTV-826" H 7850 3650 50  0000 C CNN
+F 2 "Bus_Servo32:DIP-8__300" H 7700 3950 50  0001 C CNN
+F 3 "" H 7700 3950 60  0000 C CNN
+	1    7700 3950
+	1    0    0    -1  
+$EndComp
+Text HLabel 1500 1300 0    50   Input ~ 0
+PULSE2
+Text HLabel 1500 1400 0    50   Input ~ 0
+PULSE1
+Text HLabel 1500 1500 0    50   Input ~ 0
+PULSE0
+Text HLabel 1525 5350 0    50   Input ~ 0
+~SELECT5
+Text HLabel 1525 5450 0    50   Input ~ 0
+~SELECT4
+$Comp
+L OPTO_ISOLATOR U16
+U 2 1 5443EB37
+P 7700 4750
+F 0 "U16" H 7450 5050 50  0000 C CNN
+F 1 "LTV-826" H 7850 4450 50  0000 C CNN
+F 2 "Bus_Servo32:DIP-8__300" H 7700 4750 50  0001 C CNN
+F 3 "" H 7700 4750 60  0000 C CNN
+	2    7700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_VERT_SIP9 R12
+U 1 1 5443EB3E
+P 3800 5850
+F 0 "R12" H 3845 5920 50  0000 L CNN
+F 1 "10Kx8" H 3845 5820 50  0000 L CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_1x09" H 3800 5850 50  0001 C CNN
+F 3 "" H 3800 5850 50  0000 C CNN
+	1    3800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_VERT_SIP9 R12
+U 2 1 5443EB45
+P 4200 5850
+F 0 "R12" H 4245 5920 50  0000 L CNN
+F 1 "10Kx8" H 4245 5820 50  0000 L CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_1x09" H 4200 5850 50  0001 C CNN
+F 3 "" H 4200 5850 50  0000 C CNN
+	2    4200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_VERT_SIP9 R12
+U 3 1 5443EB4C
+P 4600 5850
+F 0 "R12" H 4645 5920 50  0000 L CNN
+F 1 "10Kx8" H 4645 5820 50  0000 L CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_1x09" H 4600 5850 50  0001 C CNN
+F 3 "" H 4600 5850 50  0000 C CNN
+	3    4600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_VERT_SIP9 R12
+U 4 1 5443EB53
+P 5000 5850
+F 0 "R12" H 5045 5920 50  0000 L CNN
+F 1 "10Kx8" H 5045 5820 50  0000 L CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_1x09" H 5000 5850 50  0001 C CNN
+F 3 "" H 5000 5850 50  0000 C CNN
+	4    5000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SRV_HDR2 N15
+U 1 1 5443EB5A
+P 5650 2800
+F 0 "N15" H 5650 2450 50  0000 C CNN
+F 1 "SRV_HDR2" H 5650 3150 50  0000 C CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_2x03" H 5700 2800 60  0001 C CNN
+F 3 "" H 5700 2800 60  0000 C CNN
+	1    5650 2800
+	1    0    0    1   
+$EndComp
+$Comp
+L SRV_HDR2 N16
+U 1 1 5443EB61
+P 5650 4400
+F 0 "N16" H 5650 4050 50  0000 C CNN
+F 1 "SRV_HDR2" H 5650 4750 50  0000 C CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_2x03" H 5700 4400 60  0001 C CNN
+F 3 "" H 5700 4400 60  0000 C CNN
+	1    5650 4400
+	1    0    0    1   
+$EndComp
+Text HLabel 1500 1000 0    50   Input ~ 0
+B5V
+Text HLabel 1500 6150 0    50   Input ~ 0
+BGND
+$Comp
+L R_VERT_SIP9 R12
+U 5 1 5443EB6A
+P 8500 5850
+F 0 "R12" H 8545 5920 50  0000 L CNN
+F 1 "10Kx8" H 8545 5820 50  0000 L CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_1x09" H 8500 5850 50  0001 C CNN
+F 3 "" H 8500 5850 50  0000 C CNN
+	5    8500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_VERT_SIP9 R12
+U 6 1 5443EB71
+P 8900 5850
+F 0 "R12" H 8945 5920 50  0000 L CNN
+F 1 "10Kx8" H 8945 5820 50  0000 L CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_1x09" H 8900 5850 50  0001 C CNN
+F 3 "" H 8900 5850 50  0000 C CNN
+	6    8900 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_VERT_SIP9 R12
+U 7 1 5443EB78
+P 9300 5850
+F 0 "R12" H 9345 5920 50  0000 L CNN
+F 1 "10Kx8" H 9345 5820 50  0000 L CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_1x09" H 9300 5850 50  0001 C CNN
+F 3 "" H 9300 5850 50  0000 C CNN
+	7    9300 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_VERT_SIP9 R12
+U 8 1 5443EB7F
+P 9700 5850
+F 0 "R12" H 9745 5920 50  0000 L CNN
+F 1 "10Kx8" H 9745 5820 50  0000 L CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_1x09" H 9700 5850 50  0001 C CNN
+F 3 "" H 9700 5850 50  0000 C CNN
+	8    9700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SRV_HDR2 N17
+U 1 1 5443EB86
+P 10350 2800
+F 0 "N17" H 10350 2450 50  0000 C CNN
+F 1 "SRV_HDR2" H 10350 3150 50  0000 C CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_2x03" H 10400 2800 60  0001 C CNN
+F 3 "" H 10400 2800 60  0000 C CNN
+	1    10350 2800
+	1    0    0    1   
+$EndComp
+$Comp
+L SRV_HDR2 N18
+U 1 1 5443EB8D
+P 10350 4400
+F 0 "N18" H 10350 4050 50  0000 C CNN
+F 1 "SRV_HDR2" H 10350 4750 50  0000 C CNN
+F 2 "Bus_Servo32:Pin_Header_Straight_2x03" H 10400 4400 60  0001 C CNN
+F 3 "" H 10400 4400 60  0000 C CNN
+	1    10350 4400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2500 2150 2200 2150
+Wire Wire Line
+	2200 2150 2200 1200
+Connection ~ 2200 1200
+Wire Wire Line
+	2500 2950 2100 2950
+Wire Wire Line
+	2100 2950 2100 1300
+Connection ~ 2100 1300
+Wire Wire Line
+	1500 1400 6700 1400
+Wire Wire Line
+	2500 3750 2000 3750
+Wire Wire Line
+	2000 3750 2000 1400
+Connection ~ 2000 1400
+Wire Wire Line
+	1500 1500 6600 1500
+Wire Wire Line
+	7100 5450 1525 5450
+Wire Wire Line
+	2400 4950 2500 4950
+Wire Wire Line
+	2500 4550 1900 4550
+Wire Wire Line
+	1900 4550 1900 1500
+Connection ~ 1900 1500
+Wire Wire Line
+	7200 2150 6900 2150
+Wire Wire Line
+	6900 2150 6900 1200
+Wire Wire Line
+	7100 2550 7100 5450
+Wire Wire Line
+	7100 4950 7200 4950
+Wire Wire Line
+	7200 4550 6600 4550
+Wire Wire Line
+	6600 4550 6600 1500
+Wire Wire Line
+	6800 2950 7200 2950
+Wire Wire Line
+	6800 1300 6800 2950
+Wire Wire Line
+	1500 1300 6800 1300
+Wire Wire Line
+	1500 1000 9900 1000
+Wire Wire Line
+	3800 6150 3800 6050
+Wire Wire Line
+	4200 6150 4200 6050
+Connection ~ 3800 6150
+Wire Wire Line
+	4600 6150 4600 6050
+Connection ~ 4200 6150
+Wire Wire Line
+	5000 6150 5000 6050
+Connection ~ 4600 6150
+Connection ~ 5000 6150
+Wire Wire Line
+	8300 4550 8200 4550
+Wire Wire Line
+	8300 1000 8300 4550
+Wire Wire Line
+	8300 2150 8200 2150
+Connection ~ 8300 2150
+Wire Wire Line
+	8200 2950 8300 2950
+Connection ~ 8300 2950
+Wire Wire Line
+	8200 3750 8300 3750
+Connection ~ 8300 3750
+Wire Wire Line
+	8200 2550 10100 2550
+Connection ~ 8500 2550
+Wire Wire Line
+	9900 1000 9900 4450
+Connection ~ 9900 2750
+Wire Wire Line
+	10100 2950 10000 2950
+Wire Wire Line
+	10000 2950 10000 6150
+Wire Wire Line
+	10000 3050 10100 3050
+Wire Wire Line
+	10000 4650 10100 4650
+Connection ~ 10000 3050
+Wire Wire Line
+	10000 4550 10100 4550
+Connection ~ 10000 4650
+Wire Wire Line
+	9900 4450 10100 4450
+Connection ~ 9900 4350
+Wire Wire Line
+	9300 6150 9300 6050
+Connection ~ 5300 6150
+Connection ~ 9300 6150
+Connection ~ 9700 6150
+Wire Wire Line
+	8900 6050 8900 6150
+Connection ~ 8900 6150
+Wire Wire Line
+	8500 6050 8500 6150
+Connection ~ 8500 6150
+Wire Wire Line
+	9900 2850 10100 2850
+Connection ~ 10000 4550
+Wire Wire Line
+	10000 6150 1500 6150
+Connection ~ 9900 2850
+Connection ~ 8300 1000
+Wire Wire Line
+	9900 4350 10100 4350
+Wire Wire Line
+	10100 2750 9900 2750
+Wire Wire Line
+	6900 1200 1500 1200
+Wire Wire Line
+	9700 6050 9700 6150
+Wire Wire Line
+	8200 3350 9700 3350
+Connection ~ 8900 3350
+Connection ~ 9300 4150
+Wire Wire Line
+	8200 4150 10100 4150
+Wire Wire Line
+	8200 4950 9700 4950
+Wire Wire Line
+	9700 4250 9700 5650
+Wire Wire Line
+	9700 4250 10100 4250
+Connection ~ 9700 4950
+Wire Wire Line
+	7200 3750 6700 3750
+Wire Wire Line
+	6700 3750 6700 1400
+Wire Wire Line
+	3500 2550 5400 2550
+Wire Wire Line
+	3600 1000 3600 4550
+Wire Wire Line
+	3600 2150 3500 2150
+Wire Wire Line
+	5400 2950 5300 2950
+Wire Wire Line
+	5300 2950 5300 6150
+Wire Wire Line
+	5300 3050 5400 3050
+Wire Wire Line
+	5300 4550 5400 4550
+Connection ~ 5300 3050
+Wire Wire Line
+	5300 4650 5400 4650
+Connection ~ 5300 4550
+Connection ~ 5300 4650
+Wire Wire Line
+	5200 4450 5400 4450
+Wire Wire Line
+	5200 1000 5200 4450
+Wire Wire Line
+	5200 4350 5400 4350
+Wire Wire Line
+	5200 2850 5400 2850
+Connection ~ 5200 4350
+Wire Wire Line
+	5200 2750 5400 2750
+Connection ~ 5200 2850
+Connection ~ 3600 1000
+Connection ~ 5200 2750
+Wire Wire Line
+	3500 3350 5000 3350
+Wire Wire Line
+	4200 3350 4200 5650
+Wire Wire Line
+	3500 4950 5000 4950
+Wire Wire Line
+	5000 4250 5000 5650
+Wire Wire Line
+	5000 4250 5400 4250
+Connection ~ 3800 2550
+Wire Wire Line
+	8500 5650 8500 2550
+Wire Wire Line
+	9300 4150 9300 5650
+Connection ~ 5000 4950
+Wire Wire Line
+	4600 5650 4600 4150
+Wire Wire Line
+	3500 4150 5400 4150
+Connection ~ 4600 4150
+Connection ~ 4200 3350
+Wire Wire Line
+	3800 5650 3800 2550
+Connection ~ 5200 1000
+Wire Wire Line
+	3600 2950 3500 2950
+Connection ~ 3600 2150
+Wire Wire Line
+	3600 3750 3500 3750
+Connection ~ 3600 2950
+Wire Wire Line
+	3600 4550 3500 4550
+Connection ~ 3600 3750
+Wire Wire Line
+	2500 2550 2400 2550
+Wire Wire Line
+	2400 3350 2500 3350
+Wire Wire Line
+	2400 4150 2500 4150
+Connection ~ 2400 3350
+Connection ~ 2400 4950
+Connection ~ 2400 4150
+Wire Wire Line
+	2400 5350 1525 5350
+Wire Wire Line
+	2400 2550 2400 5350
+Wire Wire Line
+	7200 4150 7100 4150
+Connection ~ 7100 4950
+Wire Wire Line
+	7200 3350 7100 3350
+Connection ~ 7100 4150
+Wire Wire Line
+	7200 2550 7100 2550
+Connection ~ 7100 3350
+Text Label 4650 4950 0    50   ~ 0
+SERVO20
+Text Label 4650 4150 0    50   ~ 0
+SERVO21
+Wire Wire Line
+	5000 3350 5000 2650
+Wire Wire Line
+	5000 2650 5400 2650
+Text Label 4650 3350 0    50   ~ 0
+SERVO22
+Text Label 4650 2550 0    50   ~ 0
+SERVO23
+Wire Wire Line
+	8900 5650 8900 3350
+Wire Wire Line
+	9700 3350 9700 2650
+Wire Wire Line
+	9700 2650 10100 2650
+Text Label 9350 4950 0    50   ~ 0
+SERVO16
+Text Label 9350 4150 0    50   ~ 0
+SERVO17
+Text Label 9350 3350 0    50   ~ 0
+SERVO18
+Text Label 9350 2550 0    50   ~ 0
+SERVO19
+$EndSCHEMATC

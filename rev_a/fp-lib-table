@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Bus_Servo32)(type KiCad)(uri ${KIPRJMOD}/bus_servo32.pretty)(options "")(descr "Servo32"))
+)

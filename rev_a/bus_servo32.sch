@@ -1,0 +1,330 @@
+EESchema Schematic File Version 2
+LIBS:bus_servo32
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bus_servo32-cache
+EELAYER 25 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 6
+Title "Bridge/Encoders/Sonars Mini-Shield"
+Date "Fri 17 Oct 2014"
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 700  1500 700  1800
+U 543A0162
+F0 "Processor" 50
+F1 "processor.sch" 50
+F2 "BGND" O R 1400 3200 50 
+F3 "B5V" O R 1400 1600 50 
+F4 "PULSE3" O R 1400 1800 50 
+F5 "PULSE2" O R 1400 1900 50 
+F6 "PULSE1" O R 1400 2000 50 
+F7 "PULSE0" O R 1400 2100 50 
+F8 "~SELECT7" O R 1400 2300 50 
+F9 "~SELECT6" O R 1400 2400 50 
+F10 "~SELECT5" O R 1400 2500 50 
+F11 "~SELECT4" O R 1400 2600 50 
+F12 "~SELECT3" O R 1400 2700 50 
+F13 "~SELECT2" O R 1400 2800 50 
+F14 "~SELECT1" O R 1400 2900 50 
+F15 "~SELECT0" O R 1400 3000 50 
+$EndSheet
+Wire Wire Line
+	1400 3200 1900 3200
+Wire Wire Line
+	1900 3200 1900 4700
+Wire Wire Line
+	1900 4700 8400 4700
+Wire Wire Line
+	2800 4700 2800 4400
+Wire Wire Line
+	2800 4400 3000 4400
+Wire Wire Line
+	3000 4200 2100 4200
+Wire Wire Line
+	2100 4200 2100 3000
+Wire Wire Line
+	2100 3000 1400 3000
+Wire Wire Line
+	3000 4100 2200 4100
+Wire Wire Line
+	2200 4100 2200 2900
+Wire Wire Line
+	2200 2900 1400 2900
+Wire Wire Line
+	3000 3900 2400 3900
+Wire Wire Line
+	2400 3900 2400 2100
+Wire Wire Line
+	1400 2100 7900 2100
+Wire Wire Line
+	1400 2000 8000 2000
+Wire Wire Line
+	2500 2000 2500 3800
+Wire Wire Line
+	2500 3800 3000 3800
+Wire Wire Line
+	3000 3700 2600 3700
+Wire Wire Line
+	2600 3700 2600 1900
+Wire Wire Line
+	1400 1900 8100 1900
+Wire Wire Line
+	1400 1800 8200 1800
+Wire Wire Line
+	2700 1800 2700 3600
+Wire Wire Line
+	2700 3600 3000 3600
+Wire Wire Line
+	3000 3400 2900 3400
+Wire Wire Line
+	2900 3400 2900 1600
+Wire Wire Line
+	1400 1600 8400 1600
+$Sheet
+S 4800 3300 600  1200
+U 5443269E
+F0 "Servos_8:15" 60
+F1 "servos8_15.sch" 60
+F2 "B5V" I L 4800 3400 50 
+F3 "PULSE3" I L 4800 3550 50 
+F4 "PULSE2" I L 4800 3650 50 
+F5 "PULSE1" I L 4800 3750 50 
+F6 "PULSE0" I L 4800 3850 50 
+F7 "~SELECT3" I L 4800 4100 50 
+F8 "~SELECT2" I L 4800 4200 50 
+F9 "BGND" I L 4800 4400 50 
+$EndSheet
+$Sheet
+S 3000 3300 600  1200
+U 543A0165
+F0 "Servos_0:7" 50
+F1 "servos0_7.sch" 50
+F2 "BGND" I L 3000 4400 50 
+F3 "PULSE3" I L 3000 3600 50 
+F4 "PULSE2" I L 3000 3700 50 
+F5 "PULSE1" I L 3000 3800 50 
+F6 "PULSE0" I L 3000 3900 50 
+F7 "~SELECT1" I L 3000 4100 50 
+F8 "~SELECT0" I L 3000 4200 50 
+F9 "B5V" I L 3000 3400 50 
+$EndSheet
+Wire Wire Line
+	1400 2800 3900 2800
+Wire Wire Line
+	3900 2800 3900 4200
+Wire Wire Line
+	3900 4200 4800 4200
+Wire Wire Line
+	1400 2700 4000 2700
+Wire Wire Line
+	4000 2700 4000 4100
+Wire Wire Line
+	4000 4100 4800 4100
+Wire Wire Line
+	4200 2100 4200 3850
+Wire Wire Line
+	4200 3850 4800 3850
+Connection ~ 2400 2100
+Wire Wire Line
+	4300 2000 4300 3750
+Wire Wire Line
+	4300 3750 4800 3750
+Connection ~ 2500 2000
+Wire Wire Line
+	4400 1900 4400 3650
+Wire Wire Line
+	4400 3650 4800 3650
+Connection ~ 2600 1900
+Wire Wire Line
+	4500 1800 4500 3550
+Wire Wire Line
+	4500 3550 4800 3550
+Connection ~ 2700 1800
+Wire Wire Line
+	4700 1600 4700 3400
+Wire Wire Line
+	4700 3400 4800 3400
+Connection ~ 2900 1600
+Wire Wire Line
+	4700 4700 4700 4400
+Wire Wire Line
+	4700 4400 4800 4400
+Connection ~ 2800 4700
+$Sheet
+S 6600 3300 600  1200
+U 54435899
+F0 "Servos_16:23" 60
+F1 "servos16_23.sch" 60
+F2 "B5V" I L 6600 3400 50 
+F3 "PULSE3" I L 6600 3550 50 
+F4 "PULSE2" I L 6600 3650 50 
+F5 "PULSE1" I L 6600 3750 50 
+F6 "PULSE0" I L 6600 3850 50 
+F7 "~SELECT5" I L 6600 4100 50 
+F8 "~SELECT4" I L 6600 4200 50 
+F9 "BGND" I L 6600 4400 50 
+$EndSheet
+Wire Wire Line
+	1400 2600 5700 2600
+Wire Wire Line
+	5700 2600 5700 4200
+Wire Wire Line
+	5700 4200 6600 4200
+Wire Wire Line
+	6600 4100 5800 4100
+Wire Wire Line
+	5800 4100 5800 2500
+Wire Wire Line
+	5800 2500 1400 2500
+Wire Wire Line
+	6000 2100 6000 3850
+Wire Wire Line
+	6000 3850 6600 3850
+Connection ~ 4200 2100
+Wire Wire Line
+	6600 3750 6100 3750
+Wire Wire Line
+	6100 3750 6100 2000
+Connection ~ 4300 2000
+Wire Wire Line
+	6200 1900 6200 3650
+Wire Wire Line
+	6200 3650 6600 3650
+Connection ~ 4400 1900
+Wire Wire Line
+	6600 3550 6300 3550
+Wire Wire Line
+	6300 3550 6300 1800
+Connection ~ 4500 1800
+Wire Wire Line
+	6500 1600 6500 3400
+Wire Wire Line
+	6500 3400 6600 3400
+Connection ~ 4700 1600
+Wire Wire Line
+	6600 4400 6500 4400
+Wire Wire Line
+	6500 4400 6500 4700
+Connection ~ 4700 4700
+$Sheet
+S 8500 3300 600  1200
+U 5443A47B
+F0 "Servos_23:32" 60
+F1 "servos23_31.sch" 60
+F2 "B5V" I L 8500 3400 50 
+F3 "PULSE3" I L 8500 3600 50 
+F4 "PULSE2" I L 8500 3700 50 
+F5 "PULSE1" I L 8500 3800 50 
+F6 "PULSE0" I L 8500 3900 50 
+F7 "~SELECT7" I L 8500 4100 50 
+F8 "~SELECT6" I L 8500 4200 50 
+F9 "BGND" I L 8500 4400 50 
+$EndSheet
+Wire Wire Line
+	8400 4700 8400 4400
+Wire Wire Line
+	8400 4400 8500 4400
+Connection ~ 6500 4700
+Wire Wire Line
+	1400 2400 7600 2400
+Wire Wire Line
+	7600 2400 7600 4200
+Wire Wire Line
+	7600 4200 8500 4200
+Wire Wire Line
+	1400 2300 7700 2300
+Wire Wire Line
+	7700 2300 7700 4100
+Wire Wire Line
+	7700 4100 8500 4100
+Wire Wire Line
+	7900 2100 7900 3900
+Wire Wire Line
+	7900 3900 8500 3900
+Connection ~ 6000 2100
+Wire Wire Line
+	8000 2000 8000 3800
+Wire Wire Line
+	8000 3800 8500 3800
+Connection ~ 6100 2000
+Wire Wire Line
+	8100 1900 8100 3700
+Wire Wire Line
+	8100 3700 8500 3700
+Connection ~ 6200 1900
+Wire Wire Line
+	8200 1800 8200 3600
+Wire Wire Line
+	8200 3600 8500 3600
+Connection ~ 6300 1800
+Wire Wire Line
+	8400 1600 8400 3400
+Wire Wire Line
+	8400 3400 8500 3400
+Connection ~ 6500 1600
+Text Label 1500 3200 0    50   ~ 0
+BGND
+Text Label 1500 1600 0    50   ~ 0
+B5V
+Text Label 1500 1800 0    50   ~ 0
+PULSE3
+Text Label 1500 1900 0    50   ~ 0
+PULSE2
+Text Label 1500 2000 0    50   ~ 0
+PULSE1
+Text Label 1500 2100 0    50   ~ 0
+PULSE0
+Text Label 1500 2300 0    50   ~ 0
+~SELECT7
+Text Label 1500 2400 0    50   ~ 0
+~SELECT6
+Text Label 1500 2500 0    50   ~ 0
+~SELECT5
+Text Label 1500 2600 0    50   ~ 0
+~SELECT4
+Text Label 1500 2700 0    50   ~ 0
+~SELECT3
+Text Label 1500 2800 0    50   ~ 0
+~SELECT2
+Text Label 1500 2900 0    50   ~ 0
+~SELECT1
+Text Label 1500 3000 0    50   ~ 0
+~SELECT0
+$EndSCHEMATC
